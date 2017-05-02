@@ -1,0 +1,288 @@
+
+/* ==========================================================================
+   01. SPACING & ALIGNMENT
+========================================================================== */
+/* margin */
+$space-a: 15%;
+
+/* padding */
+
+/* ==========================================================================
+   02. Fonts
+========================================================================== */
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+$font-a: 'Oswald', sans-serif;
+$font-b: 'Open Sans', sans-serif;
+
+/* ==========================================================================
+   03. Overlay Effect
+========================================================================== */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    /* Provides cross-browser RGBa background */
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#80000000', endColorstr='#80000000');
+    background: transparent;
+    background: rgba(29, 156, 211, 0.4);
+}
+
+/* set filter as none for IE9+, because IE9+ support RGBa */
+:root .overlay {
+    filter: none\0/IE9;
+}
+
+
+
+/* ==========================================================================
+   04. Section
+========================================================================== */
+section{
+  position: relative;
+  overflow: hidden;
+}
+.hero{
+  height: 700px;
+}
+/* ==========================================================================
+   05. Colors
+========================================================================== */
+$bluez: #1D9CD3;
+$darkz: #444040;
+
+
+
+/* ==========================================================================
+   06. HEADER NAVIGATION
+========================================================================== */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: none;
+    margin-bottom: 0;
+    padding: 20px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.navbar.bg-transparent {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+.navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+    padding: 9px 15px;
+    border-radius: 5px;
+    margin-right: 2px;
+    line-height: 20px;
+}
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:hover,
+.navbar-nav>.active>a:focus {
+    background-color: $bluez;
+    opacity: 1;
+}
+
+/* ==========================================================================
+   07. HERO - INDEX
+========================================================================== */
+#hero1{
+  padding-top: $space-a;
+  h1{
+    font-family: $font-a;
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+  }
+   h3{
+    font-family: $font-b;
+    color: #fff;
+    // background-color: $bluez;
+    // padding: 20px;
+    line-height: 35px;
+    margin-top: 40px;
+  }
+  h5{
+    color: #fff;
+    font-family: $font-b;
+    font-size: 18px;
+
+  }
+}
+.bgintro{
+  background-image: url("../images/london2.jpg");
+  background-size: cover;
+  background-position: 0% 10%;
+}
+
+.btn-blue{
+  display: inline-block;
+  color: #ffffff;
+  padding: 20px 31px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: $bluez;
+  border: 0;
+  border-bottom: #145b79 8px solid;
+}
+/* ==========================================================================
+   07. Intro - INDEX
+========================================================================== */
+#intro{
+  .servicos{
+    position: relative;
+  }
+  .texto{
+    font-family: $font-a;
+    padding: 80px 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(29, 156, 211, 0.4);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+  h1{
+    font-size: 52px;
+    color: $darkz;
+    font-family: $font-a;
+    font-weight: 700;
+  }
+  p{
+    font-size: 18px;
+    font-family: $font-b;
+    text-align: left;
+  }
+  h4{
+    font-size: 3em;
+  }
+
+  .teste1 {
+    position: relative;
+    width: 50%;
+  }
+
+  .imagez{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlayz {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .teste1:hover .overlayz {
+    opacity: 1;
+  }
+
+  .textz {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+}
+
+/* ==========================================================================
+   07. Services - INDEX
+========================================================================== */
+#services{
+  margin-top: 20px;
+ h1{
+   font-family: $font-a;
+ }
+ h3{
+   font-family: $font-b;
+ }
+ h4{
+   font-family: $font-a;
+ }
+ p{
+   font-family: $font-b;
+ }
+
+}
+
+/* ==========================================================================
+   07. Contact I - INDEX
+========================================================================== */
+#contact{
+  background-color: #1D9CD3;
+  margin-top: 40px;
+  color: #fff;
+  .contz{
+    margin: 60px 0;
+  }
+  .btn-conta{
+    display: inline-block;
+    color: $bluez;
+    padding: 20px 31px;
+    margin: 60px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #fff;;
+    border: 0;
+    border-bottom: #145b79 8px solid;
+    font-family: $font-b;
+    font-weight: 700;
+  }
+}
+
+/* ==========================================================================
+   08. Last projects- INDEX
+========================================================================== */
+
+#last-projects{
+  h1{
+    font-family: $font-a;
+  }
+  h3{
+    font-family: $font-b;
+  }
+}

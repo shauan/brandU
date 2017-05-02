@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include partials/head.ejs %>
+</head>
+
+<body>
+    <!-- =========================
+          Header
+      ============================== -->
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top bg-transparent">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" width="190" src="images/brandUlogo.png"> </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- =========================
+             HERO SECTION
+        ============================== -->
+    <section id="hero1" class="hero bgintro">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1 class="title-one">We build your brand</h1>
+                    <h3 class="subti-b">London-based company who works with brands to create, build and grow an image that stands the test of time.</h3>
+                    <h5 class="subti-c">Athletic talent, music, fashion, events ...</h5>
+                    <button class="btn-blue">Contact us</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+             Section - Intro
+        ============================== -->
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>What we love to do</h1>
+                    <h5>Flexibility is probably the word that most accurately describes the service I will offer you</h5>
+                </div>
+                <div class="col-md-3">
+                    <div class="servicos">
+                        <img class="img-responsive" src="/images/3.jpg">
+                        <div class="texto">
+                            <h4>Athletic talent</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="teste1">
+                        <img src="/images/3.jpg" alt="Avatar" class="imagez">
+                        <div class="overlayz">
+                            <div class="textz">Hello World</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+             Section - Services
+        ============================== -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+             Section - Index contact
+        ============================== -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 contz">
+                    <h1>Let’s chat. We’d love to get to know you</h1>
+                </div>
+                <div class="col-md-4 text-center">
+                    <button class="btn-conta">Contact us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+             Section - Last projects
+        ============================== -->
+
+    <section id="last-projects ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-12 text-center ">
+                    <h1>Latest Projects</h1>
+                    <h3>Maiores ducimus aliquam est inventore quaerat quibusdam</h3>
+                </div>
+                <div class="col-md-6 ">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <% include partials/scripts.ejs %>
+
+        <script>
+            window.sr = ScrollReveal();
+            sr.reveal('.title-one', {
+                duration: 2000,
+                origin: 'top',
+                mobile: true,
+                rotate: {
+                    x: 0,
+                    y: 0,
+                    z: 0
+                },
+            })
+            sr.reveal('.subti-b', {
+                duration: 2000,
+                origin: 'top',
+                mobile: true,
+                delay: 1000
+            })
+            sr.reveal('.subti-c', {
+                duration: 2000,
+                origin: 'top',
+                mobile: true,
+                delay: 2000
+            })
+            sr.reveal('.btn-blue', {
+                duration: 2000,
+                origin: 'top',
+                mobile: true,
+                delay: 2500
+            })
+        </script>
+
+</body>
+
+</html>
