@@ -178,6 +178,16 @@ $grey: #acb4b5;
     line-height: 40px;
     margin-bottom: 30px;
   }
+  a{
+    color: $bluez;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: $font-a;
+  }
+  i{
+    color: $bluez;
+    margin-right: 10px;
+  }
 
   p{
     font-family: $font-b;
@@ -185,6 +195,7 @@ $grey: #acb4b5;
     line-height: 25px;
     font-weight: 400;
     color: $grey;
+    margin-bottom: 20px;
   }
   h4{
     font-size: 20px;
@@ -205,17 +216,37 @@ $grey: #acb4b5;
    07. Services - INDEX
 ========================================================================== */
 #services{
-  margin-top: 20px;
+  margin-top: 50px;
+  // background-color: $darkz;
+  background-image: url("../images/london1.jpeg");
+  background-size: cover;
+
  h1{
    font-family: $font-a;
+   line-height: 40px;
+   color: $bluez;
+   font-size: 46px;
+   margin: 40px 0 30px 0;
  }
- h3{
+ span{
+   color: $grey;
+   letter-spacing: 4px;
    font-family: $font-b;
+   font-weight: 400;
+   font-size: 18px;
  }
- h4{
-   font-family: $font-a;
+ h2{
+   font-size: 24px;
+   line-height: 32px;
+   color: $bluez;
+ }
+ .col-md-6{
+   background: rgba(50, 51, 51, 0.4);
+    margin-bottom: 40px;
  }
  p{
+   margin-bottom: 20px;
+   color: $grey;
    font-family: $font-b;
  }
 
@@ -226,7 +257,6 @@ $grey: #acb4b5;
 ========================================================================== */
 #contact{
   background-color: #1D9CD3;
-  margin-top: 40px;
   color: #fff;
   .contz{
     margin: 60px 0;
