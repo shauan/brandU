@@ -238,8 +238,9 @@ section {
 ========================================================================== */
 #last-projects h1 {
   font-family: "Oswald", sans-serif; }
-
 #last-projects h3 {
   font-family: "Open Sans", sans-serif; }
+#last-projects .blo {
+  background-color: #1D9CD3; }
 
 /*# sourceMappingURL=style.css.map */

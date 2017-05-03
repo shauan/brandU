@@ -45,11 +45,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <h1 class="title-one">We build your brand</h1>
-                    <h3 class="subti-b">London-based company who works with brands to create, build and grow an image that stands the test of time.</h3>
-                    <h5 class="subti-c">Athletic talent, music, fashion, events ...</h5>
-                    <h5 class="subti-c">BrandU are a sought after London-based company who works with brands to create, build and grow an image that stands the test of time.</h5>
-                    <button class="btn-blue">Contact us</button>
+                    <h1 data-wow-delay=".50s" class="wow fadeIn title-one">We build your brand</h1>
+                    <h3 data-wow-delay=".70s" class="wow fadeIn subti-b">London-based company who works with brands to create, build and grow an image that stands the test of time.</h3>
+                    <h5 data-wow-delay=".80s" class="wow fadeIn subti-c">Athletic talent, music, fashion, events ...</h5>
+                    <h5 data-wow-delay=".90s" class="wow fadeIn subti-c">BrandU are a sought after London-based company who works with brands to create, build and grow an image that stands the test of time.</h5>
+                    <button data-wow-delay=".100s" class="wow fadeIn btn-blue">Contact us</button>
 
                 </div>
             </div>
@@ -127,7 +127,7 @@
              Section - Last projects
         ============================== -->
 
-    <section id="last-projects ">
+    <section id="last-projects">
         <div class="container ">
             <div class="row ">
                 <div class="col-md-12 text-center ">
@@ -135,7 +135,8 @@
                     <h3>Maiores ducimus aliquam est inventore quaerat quibusdam</h3>
                 </div>
                 <div class="col-md-6 ">
-                    <div class="wow fadeInLeft">fadeInLeft</div>
+                    <div data-wow-delay="0.5s" class="blo wow fadeInLeft">fadeInLeft</div>
+                    <div data-wow-delay="0.5s" class="blo wow rotateIn">fadeInLeft</div>
                 </div>
             </div>
         </div>
@@ -146,38 +147,10 @@
 
 
     <% include partials/scripts.ejs %>
-
         <script>
-            window.sr = ScrollReveal();
-            sr.reveal('.title-one', {
-                duration: 2000,
-                origin: 'top',
-                mobile: true,
-                rotate: {
-                    x: 0,
-                    y: 0,
-                    z: 0
-                },
-            })
-            sr.reveal('.subti-b', {
-                duration: 2000,
-                origin: 'top',
-                mobile: true,
-                delay: 1000
-            })
-            sr.reveal('.subti-c', {
-                duration: 2000,
-                origin: 'top',
-                mobile: true,
-                delay: 2000
-            })
-            sr.reveal('.btn-blue', {
-                duration: 2000,
-                origin: 'top',
-                mobile: true,
-                delay: 2500
-            })
+            new WOW().init();
         </script>
+
 
 </body>
 
