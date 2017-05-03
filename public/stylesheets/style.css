@@ -123,58 +123,45 @@ section {
 /* ==========================================================================
    07. Intro - INDEX
 ========================================================================== */
-#intro .servicos {
-  position: relative; }
-#intro .texto {
-  font-family: "Oswald", sans-serif;
-  padding: 80px 10px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  background: rgba(29, 156, 211, 0.4);
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  color: #fff; }
-#intro h1 {
-  font-size: 52px;
-  color: #444040;
-  font-family: "Oswald", sans-serif;
-  font-weight: 700; }
-#intro p {
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  text-align: left; }
-#intro h4 {
-  font-size: 3em; }
-#intro .teste1 {
-  position: relative;
-  width: 50%; }
-#intro .imagez {
-  display: block;
-  width: 100%;
-  height: auto; }
-#intro .overlayz {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA; }
-#intro .teste1:hover .overlayz {
-  opacity: 1; }
-#intro .textz {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); }
+#intro {
+  padding-top: 50px; }
+  #intro span {
+    color: #acb4b5;
+    margin-bottom: 20px;
+    letter-spacing: 4px; }
+  #intro .texto {
+    font-family: "Oswald", sans-serif;
+    padding: 80px 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(29, 156, 211, 0.4);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff; }
+  #intro h2 {
+    font-size: 34px;
+    color: #1D9CD3;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 30px; }
+  #intro p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #acb4b5; }
+  #intro h4 {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif; }
+  #intro img {
+    height: 300px !important;
+    width: 100% !important; }
+  #intro .no-space {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
 
 /* ==========================================================================
    07. Services - INDEX
@@ -226,6 +213,7 @@ section {
 ========================================================================== */
 #last-projects h1 {
   font-family: "Oswald", sans-serif; }
+
 #last-projects h3 {
   font-family: "Open Sans", sans-serif; }
 

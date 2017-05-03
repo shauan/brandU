@@ -54,6 +54,7 @@ section{
 ========================================================================== */
 $bluez: #1D9CD3;
 $darkz: #444040;
+$grey: #acb4b5;
 
 
 
@@ -150,8 +151,12 @@ $darkz: #444040;
    07. Intro - INDEX
 ========================================================================== */
 #intro{
-  .servicos{
-    position: relative;
+  // background-color: #F7F7F7;
+  padding-top: 50px;
+  span{
+    color: $grey;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
   }
   .texto{
     font-family: $font-a;
@@ -165,57 +170,33 @@ $darkz: #444040;
     text-align: center;
     color: #fff;
   }
-  h1{
-    font-size: 52px;
-    color: $darkz;
+  h2{
+    font-size: 34px;
+    color: $bluez;
     font-family: $font-a;
-    font-weight: 700;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 30px;
   }
+
   p{
-    font-size: 18px;
     font-family: $font-b;
-    text-align: left;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: $grey;
   }
   h4{
-    font-size: 3em;
-  }
-
-  .teste1 {
-    position: relative;
-    width: 50%;
-  }
-
-  .imagez{
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .overlayz {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
-
-  .teste1:hover .overlayz {
-    opacity: 1;
-  }
-
-  .textz {
-    color: white;
     font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    font-family: $font-a;
+  }
+  img{
+    height: 300px !important;
+    width: 100% !important;
+  }
+  .no-space{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
 }
