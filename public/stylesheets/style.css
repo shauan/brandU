@@ -238,9 +238,69 @@ section {
 ========================================================================== */
 #last-projects h1 {
   font-family: "Oswald", sans-serif; }
+
 #last-projects h3 {
   font-family: "Open Sans", sans-serif; }
+
 #last-projects .blo {
   background-color: #1D9CD3; }
+
+/* ==========================================================================
+   08. Footer- INDEX
+========================================================================== */
+#rodape {
+  background-color: #000;
+  margin-top: 40px; }
+  #rodape .row {
+    padding: 40px 0; }
+  #rodape img {
+    width: 70%; }
+  #rodape .rodape-text {
+    color: #acb4b5;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    padding-left: 20px; }
+  #rodape .roda-contact {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #acb4b5;
+    font-family: "Oswald", sans-serif;
+    color: #1D9CD3; }
+    #rodape .roda-contact span {
+      font-size: 20px;
+      color: #acb4b5;
+      margin-left: 5px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700; }
+    #rodape .roda-contact i {
+      margin-right: 20px;
+      color: #1D9CD3; }
+  #rodape .roda-mail {
+    margin-bottom: 7px; }
+    #rodape .roda-mail span {
+      color: #acb4b5;
+      font-size: 20px;
+      font-family: "Oswald", sans-serif;
+      font-weight: 700; }
+    #rodape .roda-mail i {
+      margin-right: 20px;
+      color: #acb4b5; }
+    #rodape .roda-mail a {
+      text-decoration: none;
+      color: #acb4b5;
+      font-size: 20px;
+      font-family: "Oswald", sans-serif;
+      font-weight: 700; }
+  #rodape .roda-local span {
+    color: #acb4b5;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700; }
+  #rodape .roda-local i {
+    padding-left: 2px;
+    margin-right: 22px;
+    color: #acb4b5;
+    font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -300,3 +300,79 @@ $grey: #acb4b5;
     background-color: $bluez;
   }
 }
+
+
+/* ==========================================================================
+   08. Footer- INDEX
+========================================================================== */
+
+#rodape{
+  background-color: #000;
+  margin-top: 40px;
+  .row{
+    padding: 40px 0;
+  }
+  img{
+    width: 70%;
+  }
+  .rodape-text{
+    color: $grey;
+    font-size: 17px;
+    letter-spacing: 1px;
+     line-height: 32px;
+     padding-left: 20px;
+  }
+  .roda-contact{
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: $grey;
+    font-family: $font-a;
+    color: $bluez;
+    span{
+      font-size: 20px;
+      color: $grey;
+      margin-left: 5px;
+      font-family: $font-b;
+      font-weight: 700;
+    }
+    i{
+      margin-right: 20px;
+      color: $bluez;
+    }
+  }
+  .roda-mail{
+    margin-bottom: 7px;
+    span{
+      color: $grey;
+      font-size: 20px;
+      font-family: $font-a;
+      font-weight: 700;
+    }
+    i{
+      margin-right: 20px;
+      color: $grey;
+    }
+    a{
+      text-decoration: none;
+      color: $grey;
+      font-size: 20px;
+      font-family: $font-a;
+      font-weight: 700;
+    }
+  }
+  .roda-local{
+    span{
+      color: $grey;
+      font-size: 20px;
+      font-family: $font-a;
+      font-weight: 700;
+    }
+    i{
+      padding-left: 2px;
+      margin-right: 22px;
+      color: $grey;
+      font-size: 18px;
+    }
+  }
+
+}

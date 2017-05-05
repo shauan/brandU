@@ -45,11 +45,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <h1 data-wow-delay=".50s" class="wow fadeIn title-one">We build your brand</h1>
+                    <h1 data-wow-delay=".50s" class="wow slideInLeft title-one">We build your brand</h1>
                     <h3 data-wow-delay=".70s" class="wow fadeIn subti-b">London-based company who works with brands to create, build and grow an image that stands the test of time.</h3>
                     <h5 data-wow-delay=".80s" class="wow fadeIn subti-c">Athletic talent, music, fashion, events ...</h5>
                     <h5 data-wow-delay=".90s" class="wow fadeIn subti-c">BrandU are a sought after London-based company who works with brands to create, build and grow an image that stands the test of time.</h5>
-                    <button data-wow-delay=".100s" class="wow fadeIn btn-blue">Contact us</button>
+                    <button data-wow-delay="1.4s" class="wow fadeIn btn-blue">Contact us</button>
 
                 </div>
             </div>
@@ -62,14 +62,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <span>ABOUT US</span>
-                    <h2>BrandU work with brands to create, build and grow an image that stands the test of time.</h2>
-                    <p> We provide professional advice that can help you to reach your full potential. To transform businesses through the relationships, innovation, solutions that we deliver and value we bring.</p>
+                    <span class="wow fadeInDown" data-wow-delay=".5s">ABOUT US</span>
+                    <h2 class="wow slideInLeft">BrandU work with brands to create, build and grow an image that stands the test of time.</h2>
+                    <p class="wow slideInRight"> We provide professional advice that can help you to reach your full potential. To transform businesses through the relationships, innovation, solutions that we deliver and value we bring.</p>
                 </div>
                 <div class="col-md-5 col-md-offset-2 no-space onlyz">
-                    <img class="img-responsive pull-right" src="images/bdf.jpg">
+                    <img class="img-responsive pull-right wow fadeInDown" src="images/bdf.jpg">
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 wow fadeInUp" data-wow-delay=".5s">
                     <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>Read more about us</a>
                 </div>
             </div>
@@ -134,22 +134,32 @@
                     <h1>Latest Projects</h1>
                     <h3>Maiores ducimus aliquam est inventore quaerat quibusdam</h3>
                 </div>
-                <div class="col-md-6 ">
-                    <div data-wow-delay="0.5s" class="blo wow fadeInLeft">fadeInLeft</div>
-                    <div data-wow-delay="0.5s" class="blo wow rotateIn">fadeInLeft</div>
+                <div class="col-md-4">
+                    <img src="images/servd.jpeg" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/serve.jpeg" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/srv1.jpg" class="img-responsive">
                 </div>
             </div>
-        </div>
     </section>
 
 
+    <!-- =========================
+             Footer
+        ============================== -->
+    <% include partials/footer.ejs %>
 
 
-
-    <% include partials/scripts.ejs %>
-        <script>
-            new WOW().init();
-        </script>
+        <!-- =========================
+             Scripts-
+        ============================== -->
+        <% include partials/scripts.ejs %>
+            <script>
+                new WOW().init();
+            </script>
 
 
 </body>
