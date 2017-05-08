@@ -49,6 +49,9 @@ section{
 .hero{
   height: 700px;
 }
+.hero-contact{
+  height: 300px;
+}
 /* ==========================================================================
    05. Colors
 ========================================================================== */
@@ -408,4 +411,110 @@ background-color: #fff !important;
  .fafa{
    color: #3B5998;
  }
+}
+
+/* ==========================================================================
+   07. Contact Page
+========================================================================== */
+#contact-pg{
+  padding-top: $space-a;
+  h1{
+    font-family: $font-a;
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+  }
+   h3{
+    font-family: $font-b;
+    color: #fff;
+    line-height: 35px;
+    margin-top: 40px;
+  }
+  h5{
+    color: #fff;
+    font-family: $font-b;
+    font-size: 18px;
+  }
+}
+.bgcontact{
+  background-image: url("../images/london1.jpeg");
+  background-size: cover;
+  background-position: 0% 70%;
+}
+.funciona{
+  padding: 40px 0;
+  .form-group{
+    font-family: $font-b;
+    font-size: 18px;
+  }
+
+}
+input[type="text"], textarea {
+outline: none;
+box-shadow:none !important;
+border: 0 !important;
+}
+input[type="email"] {
+  outline: none;
+  box-shadow:none !important;
+  border: 0 !important;
+}
+
+.ctc-b{
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: $grey;
+  font-family: $font-a;
+  color: $bluez;
+  span{
+    font-size: 20px;
+    color: $darkz;
+    margin-left: 5px;
+    font-family: $font-b;
+    font-weight: 700;
+  }
+  i{
+    margin-right: 20px;
+    color: $bluez;
+  }
+}
+.ctc-c{
+  margin-bottom: 7px;
+  span{
+    color: $darkz;
+    font-size: 20px;
+    font-family: $font-a;
+    font-weight: 700;
+  }
+  i{
+    margin-right: 20px;
+    color: $darkz;
+  }
+  a{
+    text-decoration: none;
+    color: $darkz;
+    font-size: 20px;
+    font-family: $font-a;
+    font-weight: 700;
+  }
+}
+.ctc-d{
+  font-family: $font-a;
+  font-weight: 700;
+  font-size: 20px;
+  color: $darkz;
+  span{
+    font-size: 20px;
+    font-family: $font-b;
+    font-weight: 400;
+  }
+  i{
+    padding-left: 2px;
+    margin-right: 22px;
+    color: $darkz;
+    font-size: 18px;
+  }
+}
+.nz{
+  background-color: #f3f3f3;
 }

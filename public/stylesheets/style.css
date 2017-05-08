@@ -36,6 +36,9 @@ section {
 .hero {
   height: 700px; }
 
+.hero-contact {
+  height: 300px; }
+
 /* ==========================================================================
    05. Colors
 ========================================================================== */
@@ -245,10 +248,8 @@ section {
 ========================================================================== */
 #last-projects h1 {
   font-family: "Oswald", sans-serif; }
-
 #last-projects h3 {
   font-family: "Open Sans", sans-serif; }
-
 #last-projects .blo {
   background-color: #1D9CD3; }
 
@@ -330,5 +331,97 @@ section {
     text-decoration: none; }
   #rodape .fafa {
     color: #3B5998; }
+
+/* ==========================================================================
+   07. Contact Page
+========================================================================== */
+#contact-pg {
+  padding-top: 15%; }
+  #contact-pg h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff; }
+  #contact-pg h3 {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    line-height: 35px;
+    margin-top: 40px; }
+  #contact-pg h5 {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px; }
+
+.bgcontact {
+  background-image: url("../images/london1.jpeg");
+  background-size: cover;
+  background-position: 0% 70%; }
+
+.funciona {
+  padding: 40px 0; }
+  .funciona .form-group {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px; }
+
+input[type="text"], textarea {
+  outline: none;
+  box-shadow: none !important;
+  border: 0 !important; }
+
+input[type="email"] {
+  outline: none;
+  box-shadow: none !important;
+  border: 0 !important; }
+
+.ctc-b {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #acb4b5;
+  font-family: "Oswald", sans-serif;
+  color: #1D9CD3; }
+  .ctc-b span {
+    font-size: 20px;
+    color: #444040;
+    margin-left: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700; }
+  .ctc-b i {
+    margin-right: 20px;
+    color: #1D9CD3; }
+
+.ctc-c {
+  margin-bottom: 7px; }
+  .ctc-c span {
+    color: #444040;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700; }
+  .ctc-c i {
+    margin-right: 20px;
+    color: #444040; }
+  .ctc-c a {
+    text-decoration: none;
+    color: #444040;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700; }
+
+.ctc-d {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #444040; }
+  .ctc-d span {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400; }
+  .ctc-d i {
+    padding-left: 2px;
+    margin-right: 22px;
+    color: #444040;
+    font-size: 18px; }
+
+.nz {
+  background-color: #f3f3f3; }
 
 /*# sourceMappingURL=style.css.map */
