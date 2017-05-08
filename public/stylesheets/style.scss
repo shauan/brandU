@@ -308,9 +308,16 @@ $grey: #acb4b5;
 
 #rodape{
   background-color: #000;
-  margin-top: 40px;
-  .row{
-    padding: 40px 0;
+  .espaco{
+    margin: 40px 0;
+  }
+  .sigas{
+    color: #fff;
+    font-size: 20px;
+    font-family: $font-a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
   }
   img{
     width: 70%;
@@ -321,6 +328,7 @@ $grey: #acb4b5;
     letter-spacing: 1px;
      line-height: 32px;
      padding-left: 20px;
+     margin-bottom: 20px;
   }
   .roda-contact{
     margin-bottom: 5px;
@@ -361,11 +369,14 @@ $grey: #acb4b5;
     }
   }
   .roda-local{
+    font-family: $font-a;
+    font-weight: 700;
+    font-size: 20px;
+    color: $grey;
     span{
-      color: $grey;
       font-size: 20px;
-      font-family: $font-a;
-      font-weight: 700;
+      font-family: $font-b;
+      font-weight: 400;
     }
     i{
       padding-left: 2px;
@@ -374,5 +385,18 @@ $grey: #acb4b5;
       font-size: 18px;
     }
   }
-
+  .sociais{
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .midz{
+    margin: 0 30px;
+    color: #1DA1F2;
+  }
+ a{
+   text-decoration: none;
+ }
+ .fafa{
+   color: #3B5998;
+ }
 }

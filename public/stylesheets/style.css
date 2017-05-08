@@ -249,10 +249,16 @@ section {
    08. Footer- INDEX
 ========================================================================== */
 #rodape {
-  background-color: #000;
-  margin-top: 40px; }
-  #rodape .row {
-    padding: 40px 0; }
+  background-color: #000; }
+  #rodape .espaco {
+    margin: 40px 0; }
+  #rodape .sigas {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
   #rodape img {
     width: 70%; }
   #rodape .rodape-text {
@@ -260,7 +266,8 @@ section {
     font-size: 17px;
     letter-spacing: 1px;
     line-height: 32px;
-    padding-left: 20px; }
+    padding-left: 20px;
+    margin-bottom: 20px; }
   #rodape .roda-contact {
     margin-bottom: 5px;
     font-size: 18px;
@@ -292,15 +299,29 @@ section {
       font-size: 20px;
       font-family: "Oswald", sans-serif;
       font-weight: 700; }
-  #rodape .roda-local span {
-    color: #acb4b5;
-    font-size: 20px;
+  #rodape .roda-local {
     font-family: "Oswald", sans-serif;
-    font-weight: 700; }
-  #rodape .roda-local i {
-    padding-left: 2px;
-    margin-right: 22px;
-    color: #acb4b5;
-    font-size: 18px; }
+    font-weight: 700;
+    font-size: 20px;
+    color: #acb4b5; }
+    #rodape .roda-local span {
+      font-size: 20px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400; }
+    #rodape .roda-local i {
+      padding-left: 2px;
+      margin-right: 22px;
+      color: #acb4b5;
+      font-size: 18px; }
+  #rodape .sociais {
+    font-size: 25px;
+    margin-bottom: 30px; }
+  #rodape .midz {
+    margin: 0 30px;
+    color: #1DA1F2; }
+  #rodape a {
+    text-decoration: none; }
+  #rodape .fafa {
+    color: #3B5998; }
 
 /*# sourceMappingURL=style.css.map */
