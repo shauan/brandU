@@ -76,22 +76,31 @@ $grey: #acb4b5;
     background-color: transparent;
     border: none;
     box-shadow: none;
-    color: #fff;
 }
 .navbar-nav>li>a {
-    color: #fff;
-    font-size: 16px;
-    padding: 9px 15px;
+  text-decoration: none;
+    font-size: 20px;
+    padding: 9px 20px;
     border-radius: 5px;
     margin-right: 2px;
     line-height: 20px;
+    color: #fff;
+    font-family: $font-b;
 }
-.navbar-nav>.active>a,
-.navbar-nav>.active>a:hover,
-.navbar-nav>.active>a:focus {
-    background-color: $bluez;
-    opacity: 1;
+.sticky {
+position:fixed;
+top:0px;
+z-index:150;
+background-color: #fff !important;
+
 }
+.sticky a {
+  color: $darkz !important;
+}
+.sticky a:hover{
+  border-bottom: solid 2px $bluez;
+}
+
 
 /* ==========================================================================
    07. HERO - INDEX

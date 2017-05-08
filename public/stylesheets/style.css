@@ -56,22 +56,29 @@ section {
 .navbar.bg-transparent {
   background-color: transparent;
   border: none;
-  box-shadow: none;
-  color: #fff; }
+  box-shadow: none; }
 
 .navbar-nav > li > a {
-  color: #fff;
-  font-size: 16px;
-  padding: 9px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 9px 20px;
   border-radius: 5px;
   margin-right: 2px;
-  line-height: 20px; }
+  line-height: 20px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif; }
 
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:focus {
-  background-color: #1D9CD3;
-  opacity: 1; }
+.sticky {
+  position: fixed;
+  top: 0px;
+  z-index: 150;
+  background-color: #fff !important; }
+
+.sticky a {
+  color: #444040 !important; }
+
+.sticky a:hover {
+  border-bottom: solid 2px #1D9CD3; }
 
 /* ==========================================================================
    07. HERO - INDEX
@@ -238,10 +245,8 @@ section {
 ========================================================================== */
 #last-projects h1 {
   font-family: "Oswald", sans-serif; }
-
 #last-projects h3 {
   font-family: "Open Sans", sans-serif; }
-
 #last-projects .blo {
   background-color: #1D9CD3; }
 
