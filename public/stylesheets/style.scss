@@ -52,6 +52,9 @@ section{
 .hero-contact{
   height: 300px;
 }
+#hero-about{
+  height: 700px;
+}
 /* ==========================================================================
    05. Colors
 ========================================================================== */
@@ -529,4 +532,48 @@ textarea{
   background-color: #fff;
   width: 80%;
   padding: 40px 0 40px 65px;
+}
+
+/* ==========================================================================
+   07. About us Page
+========================================================================== */
+#hero-about{
+    padding-top: 10%;
+  .overlayabout {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      /* Provides cross-browser RGBa background */
+      zoom: 1;
+      filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#80000000', endColorstr='#80000000');
+      background: transparent;
+      background: rgba(29, 156, 211, 0.8);
+  }
+
+  /* set filter as none for IE9+, because IE9+ support RGBa */
+  :root .overlayabout {
+      filter: none\0/IE9;
+  }
+  .more-us{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 6px;
+  }
+  h1{
+    padding-top: 30px;
+    color: $bluez;
+  }
+  p{
+    padding: 20px;
+  }
+
+}
+.bgabout{
+  background-image: url("../images/aboutus.jpg");
+  background-size: cover;
+  background-position: 0% 10%;
 }
