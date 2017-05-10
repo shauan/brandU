@@ -7,7 +7,6 @@ Developed by Shauan - www.shauanf.com
 ###Usage
 - Node
 - EJS
-- express
 - SASS
 - Bootstrap
 - Nodemon
