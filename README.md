@@ -1,7 +1,16 @@
 # brandU
 consultancy agency from London,UK.
 Freelance job
-start date: april 25 2017
+start date: May 2 2017
 Developed by Shauan - www.shauanf.com
-# brandU
-# brandU
+
+###Usage
+- Node
+- EJS
+- express
+- SASS
+- Bootstrap
+- Nodemon
+- Font Awesome
+- wowJS
+- AnimateCss
